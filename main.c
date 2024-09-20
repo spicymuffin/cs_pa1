@@ -4,8 +4,8 @@
 void put_bf20(bf20 in)
 {
     int i;
-    for ( i=0; i < 26; ++i ) {
-        putchar((in & 0x8000U) ? '1' : '0');
+    for ( i=0; i < 20; ++i ) {
+        putchar((in & 0x80000U) ? '1' : '0');
         in <<= 1;
     }
 }
