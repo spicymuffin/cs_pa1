@@ -26,7 +26,7 @@ int main(void)
     scanf("%x\n", &input2);
     printf("bf202int(0x%05x) = %d\n", input2, bf202int(input2));
     scanf("%f\n", &input3);
-    printf("float2bf20(0x%f) = 0x%05x\n", input3, float2bf20(input3));
+    printf("float2bf20(%f) = 0x%05x\n", input3, float2bf20(input3));
     scanf("%x\n", &input4);
     result4.f = bf202float(input4);
     printf("bf202float(0x%05x) = %f (0x%08x)\n", input4, result4.f, result4.u);
