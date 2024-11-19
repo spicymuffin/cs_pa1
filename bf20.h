@@ -12,9 +12,10 @@ bf20 bf20_add(bf20 a, bf20 b);
 bf20 bf20_mul(bf20 a, bf20 b);
 
 int bf20_compare(bf20 a, bf20 b);
+void print_bits(unsigned int number);
 
 // Helper function to output binary pattern of bf20 to stdin
-// Be careful! This function doesn't put '\n' to stdin. 
+// Be careful! This function doesn't put '\n' to stdin.
 extern void put_bf20(bf20 in);
 
 #endif

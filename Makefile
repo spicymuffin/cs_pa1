@@ -25,6 +25,9 @@
 main: main.c bf20.c
 	gcc -o main main.c bf20.c
 
+test:
+	gcc -o test test.c bf20.c
+
 clean:
 	rm -f main
 	rm -f ${USER}.tar
